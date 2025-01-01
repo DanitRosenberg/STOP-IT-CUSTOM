@@ -42,7 +42,6 @@ window.jsPsych = (function() {
   }
   // end patch
 
-  getAudioContext().resume();
 
   core.webaudio_context = (typeof window !== 'undefined' && typeof window.AudioContext !== 'undefined') ? new AudioContext() : null;
 
