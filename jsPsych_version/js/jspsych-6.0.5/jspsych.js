@@ -41,6 +41,9 @@ window.jsPsych = (function() {
     window.AudioContext = webkitAudioContext;
   }
   // end patch
+
+  getAudioContext().resume();
+
   core.webaudio_context = (typeof window !== 'undefined' && typeof window.AudioContext !== 'undefined') ? new AudioContext() : null;
 
   // enumerated variables for special parameter types
