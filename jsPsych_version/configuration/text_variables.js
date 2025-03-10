@@ -18,12 +18,20 @@ var page1 = [
 
 // instructions page 2
 // Do not forget to adjust the number of blocks
+// page2 = [
+//   '<p> Nevertheless, it is really important that you do not wait for the stop signal to occur and that you respond as quickly and as accurately as possible to the white arrows. </p>'+
+//   '<p> After all, if you start waiting for the red stop signals, then the program will delay their presentation. This will result in long reaction times. </p>'+
+//   '<p> We will start with a short practice block in which you will receive immediate feedback. You will no longer receive immediate feedback in the experimental phase. </p>'+
+//   '<p> However, at the end of each experimental block, there will be a 15 second break. During this break, we will show you some information about your mean performance in the previous block.</p>' +
+//   '<p> The experiment consists of 1 practice block and 4 experimental blocks</p>'
+// ];
+
 page2 = [
-  '<p> Nevertheless, it is really important that you do not wait for the stop signal to occur and that you respond as quickly and as accurately as possible to the white arrows. </p>'+
-  '<p> After all, if you start waiting for the red stop signals, then the program will delay their presentation. This will result in long reaction times. </p>'+
-  '<p> We will start with a short practice block in which you will receive immediate feedback. You will no longer receive immediate feedback in the experimental phase. </p>'+
-  '<p> However, at the end of each experimental block, there will be a 15 second break. During this break, we will show you some information about your mean performance in the previous block.</p>' +
-  '<p> The experiment consists of 1 practice block and 4 experimental blocks</p>'
+    '<p style="direction: rtl; text-align: right;">למרות זאת, חשוב מאוד שלא תחכה להופעת אות העצירה ושתגיב מהר ומדויק ככל האפשר לחצים הלבנים.</p>' +
+    '<p style="direction: rtl; text-align: right;">אחרי הכל, אם תתחיל לחכות לאותות העצירה האדומים, התוכנית תעכב את הופעתם. זה יגרום לזמני תגובה ארוכים.</p>' +
+    '<p style="direction: rtl; text-align: right;">נתחיל עם בלוק אימון קצר שבו תקבל משוב מיידי. בשלב הניסוי עצמו לא תקבל יותר משוב מיידי.</p>' +
+    '<p style="direction: rtl; text-align: right;">עם זאת, בסוף כל בלוק ניסוי, תהיה הפסקה של 15 שניות. במהלך הפסקה זו, נציג בפניך מידע על הביצועים הממוצעים שלך בבלוק הקודם.</p>' +
+    '<p style="direction: rtl; text-align: right;">הניסוי מורכב מבלוק אימון אחד ו-4 בלוקים ניסויים.</p>'
 ];
 
 // informed consent text
