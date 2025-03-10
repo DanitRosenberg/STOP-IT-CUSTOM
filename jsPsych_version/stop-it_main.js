@@ -150,26 +150,26 @@ var block_get_ready = {
 };
 
 // blank inter-trial interval
-var blank_ITI = {
-    type: 'jspsych-detect-held-down-keys',
-    // this enables the detection of held down keys
-    stimulus: "",
-    // blank
-    trial_duration: ITI / 2,
-    response_ends_trial: false,
-};
+// var blank_ITI = {
+//     type: 'jspsych-detect-held-down-keys',
+//     // this enables the detection of held down keys
+//     stimulus: "",
+//     // blank
+//     trial_duration: ITI / 2,
+//     response_ends_trial: false,
+// };
 
-// now put the trial in a node that loops (if response is registered)
-var held_down_node = {
-    timeline: [blank_ITI],
-    loop_function: function (data) {
-        if (data.values()[0].key_press != null) {
-            return true; // keep looping when a response is registered
-        } else {
-            return false; // break out of loop when no response is registered
-        }
-    }
-};
+// // now put the trial in a node that loops (if response is registered)
+// var held_down_node = {
+//     timeline: [blank_ITI],
+//     loop_function: function (data) {
+//         if (data.values()[0].key_press != null) {
+//             return true; // keep looping when a response is registered
+//         } else {
+//             return false; // break out of loop when no response is registered
+//         }
+//     }
+// };
 
 
 // the main stimulus
