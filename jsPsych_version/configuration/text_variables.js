@@ -34,41 +34,81 @@ page2 = [
     '<p style="direction: rtl; text-align: right;">הניסוי מורכב מבלוק אימון אחד ו-4 בלוקים ניסויים.</p>'
 ];
 
-// informed consent text
+// // informed consent text
+// var informed_consent_text = [
+//   '<p> Type your informed consent text in the text_variables.js file... </p>'
+// ];
+
+// // trial by trial feedback messages
+// correct_msg = '<p> correct response </p>'
+// incorrect_msg = '<p> incorrect response </p>'
+// too_slow_msg = '<p> too slow </p>'
+// too_fast_msg = '<p> too fast </p>'
+// correct_stop_msg = '<p> correct stop </p>'
+// incorrect_stop_msg = '<p> remember: try to stop </p>'
+
+// // block feedback
+// no_signal_header = "<p><b>GO TRIALS: </b></p>"
+// avg_rt_msg = "<p>Average response time = %d milliseconds</p>"
+// prop_miss_msg = "<p>Proportion missed go = %.2f (should be 0)</p>"
+// stop_signal_header = "<p><b>STOP-SIGNAL TRIALS: </b></p>"
+// prop_corr_msg = "<p>Proportion correct stops = %.2f (should be close to 0.5)</p>" + "<br>"
+// next_block_msg = "<p>You can take a short break, the next block starts in <span id='timer'>15</span></p>"
+// final_block_msg = "<p>Press space to continue...</p>" // after the final block they don't need a break
+
+// // other
+// var label_previous_button = 'Previous';
+// var label_next_button = 'Next';
+// var label_consent_button = 'I agree';
+// var full_screen_message = '<p>The experiment will switch to fullscreen mode when you push the button below. </p>';
+// var welcome_message = ['<p>Welcome to the experiment.</p>' + '<p>Press "Next" to begin.</p>'];
+// var not_supported_message = ['<p>This experiment requires the Chrome or Firefox webbrowser.</p>'];
+// var subjID_instructions = "Enter your participant ID."
+// var age_instructions = "Enter your age."
+// var gender_instructions = "Choose your gender."
+// var gender_options = ['Female','Male', 'Other', 'Prefer not to say']
+// var text_at_start_block = '<p>Press space to begin.</p>'
+// var get_ready_message = '<p>Get ready...</p>'
+// var fixation_text = '<div style="font-size:60px;">TEST</div>'
+// var end_message = "<p>Thank you for your participation.</p>" +
+//   "<p>Press space to finalize the experiment.</p>"
+
+
+// טקסט הסכמה מדעת
 var informed_consent_text = [
-  '<p> Type your informed consent text in the text_variables.js file... </p>'
+    '<p style="direction: rtl; text-align: right;">הכנס את טקסט ההסכמה מדעת שלך בקובץ text_variables.js...</p>'
 ];
 
-// trial by trial feedback messages
-correct_msg = '<p> correct response </p>'
-incorrect_msg = '<p> incorrect response </p>'
-too_slow_msg = '<p> too slow </p>'
-too_fast_msg = '<p> too fast </p>'
-correct_stop_msg = '<p> correct stop </p>'
-incorrect_stop_msg = '<p> remember: try to stop </p>'
+// הודעות משוב לכל ניסיון
+correct_msg = '<p style="direction: rtl; text-align: right;">תגובה נכונה</p>'
+incorrect_msg = '<p style="direction: rtl; text-align: right;">תגובה שגויה</p>'
+too_slow_msg = '<p style="direction: rtl; text-align: right;">איטי מדי</p>'
+too_fast_msg = '<p style="direction: rtl; text-align: right;">מהיר מדי</p>'
+correct_stop_msg = '<p style="direction: rtl; text-align: right;">עצירה נכונה</p>'
+incorrect_stop_msg = '<p style="direction: rtl; text-align: right;">זכור: נסה לעצור</p>'
 
-// block feedback
-no_signal_header = "<p><b>GO TRIALS: </b></p>"
-avg_rt_msg = "<p>Average response time = %d milliseconds</p>"
-prop_miss_msg = "<p>Proportion missed go = %.2f (should be 0)</p>"
-stop_signal_header = "<p><b>STOP-SIGNAL TRIALS: </b></p>"
-prop_corr_msg = "<p>Proportion correct stops = %.2f (should be close to 0.5)</p>" + "<br>"
-next_block_msg = "<p>You can take a short break, the next block starts in <span id='timer'>15</span></p>"
-final_block_msg = "<p>Press space to continue...</p>" // after the final block they don't need a break
+// משוב בלוק
+no_signal_header = '<p style="direction: rtl; text-align: right;"><b>ניסיונות GO: </b></p>'
+avg_rt_msg = '<p style="direction: rtl; text-align: right;">זמן תגובה ממוצע = %d אלפיות שנייה</p>'
+prop_miss_msg = '<p style="direction: rtl; text-align: right;">אחוז החמצות = %.2f (צריך להיות 0)</p>'
+stop_signal_header = '<p style="direction: rtl; text-align: right;"><b>ניסיונות אות-עצירה: </b></p>'
+prop_corr_msg = '<p style="direction: rtl; text-align: right;">אחוז עצירות נכונות = %.2f (צריך להיות קרוב ל-0.5)</p>' + '<br>'
+next_block_msg = '<p style="direction: rtl; text-align: right;">אתה יכול לקחת הפסקה קצרה, הבלוק הבא מתחיל בעוד <span id="timer">15</span></p>'
+final_block_msg = '<p style="direction: rtl; text-align: right;">לחץ על מקש הרווח להמשך...</p>'
 
-// other
-var label_previous_button = 'Previous';
-var label_next_button = 'Next';
-var label_consent_button = 'I agree';
-var full_screen_message = '<p>The experiment will switch to fullscreen mode when you push the button below. </p>';
-var welcome_message = ['<p>Welcome to the experiment.</p>' + '<p>Press "Next" to begin.</p>'];
-var not_supported_message = ['<p>This experiment requires the Chrome or Firefox webbrowser.</p>'];
-var subjID_instructions = "Enter your participant ID."
-var age_instructions = "Enter your age."
-var gender_instructions = "Choose your gender."
-var gender_options = ['Female','Male', 'Other', 'Prefer not to say']
-var text_at_start_block = '<p>Press space to begin.</p>'
-var get_ready_message = '<p>Get ready...</p>'
-var fixation_text = '<div style="font-size:60px;">TEST</div>'
-var end_message = "<p>Thank you for your participation.</p>" +
-  "<p>Press space to finalize the experiment.</p>"
+// אחר
+var label_previous_button = 'הקודם';
+var label_next_button = 'הבא';
+var label_consent_button = 'אני מסכים/ה';
+var full_screen_message = '<p style="direction: rtl; text-align: right;">הניסוי יעבור למצב מסך מלא כשתלחץ על הכפתור למטה.</p>';
+var welcome_message = ['<p style="direction: rtl; text-align: right;">ברוכים הבאים לניסוי.</p>' + '<p style="direction: rtl; text-align: right;">לחץ "הבא" כדי להתחיל.</p>'];
+var not_supported_message = ['<p style="direction: rtl; text-align: right;">ניסוי זה דורש דפדפן Chrome או Firefox.</p>'];
+var subjID_instructions = "הכנס את מספר המשתתף שלך."
+var age_instructions = "הכנס את גילך."
+var gender_instructions = "בחר את המגדר שלך."
+var gender_options = ['נקבה', 'זכר', 'אחר', 'מעדיף/ה לא לציין']
+var text_at_start_block = '<p style="direction: rtl; text-align: right;">לחץ על מקש הרווח להתחלה.</p>'
+var get_ready_message = '<p style="direction: rtl; text-align: right;">התכונן...</p>'
+var fixation_text = '<div style="font-size:60px;">בדיקה</div>'
+var end_message = '<p style="direction: rtl; text-align: right;">תודה על השתתפותך.</p>' +
+    '<p style="direction: rtl; text-align: right;">לחץ על מקש הרווח לסיום הניסוי.</p>'
