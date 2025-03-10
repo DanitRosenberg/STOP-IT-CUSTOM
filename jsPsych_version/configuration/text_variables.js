@@ -1,11 +1,19 @@
 // instructions page 1
+// var page1 = [
+//   '<p>Your main task is to respond to white arrows (with a black border) that appear on the screen.</p> '+
+//   '<p>Press the LEFT ARROW KEY with the right index finger when you see a LEFT ARROW and press the RIGHT ARROW KEY with the right ring finger when you see a RIGHT ARROW. </p>'+
+//   '<p>Thus, left arrow = left key and right arrow = right key. </p>'+ '<br>' +
+//   '<p>However, on some trials (stop-signal trials) the arrows will turn red after a variable delay. You have to stop your response when this happens. </p>'+
+//   '<p>On approximately half of the stop-signal trials, the red stop signal will appear soon and you will notice that it will be easy to stop your response. </p>'+
+//   '<p>On the other half of the trials, the red stop signals will appear late and it will become very difficult or even impossible to stop your response.</p>'
+// ];
 var page1 = [
-  '<p>Your main task is to respond to white arrows (with a black border) that appear on the screen.</p> '+
-  '<p>Press the LEFT ARROW KEY with the right index finger when you see a LEFT ARROW and press the RIGHT ARROW KEY with the right ring finger when you see a RIGHT ARROW. </p>'+
-  '<p>Thus, left arrow = left key and right arrow = right key. </p>'+ '<br>' +
-  '<p>However, on some trials (stop-signal trials) the arrows will turn red after a variable delay. You have to stop your response when this happens. </p>'+
-  '<p>On approximately half of the stop-signal trials, the red stop signal will appear soon and you will notice that it will be easy to stop your response. </p>'+
-  '<p>On the other half of the trials, the red stop signals will appear late and it will become very difficult or even impossible to stop your response.</p>'
+    '<p style="direction: rtl; text-align: right;">המשימה העיקרית שלך היא להגיב לחצים לבנים (עם מסגרת שחורה) שמופיעים על המסך.</p>' +
+    '<p style="direction: rtl; text-align: right;">לחץ על מקש החץ השמאלי עם אצבע המורה הימנית כשאתה רואה חץ שמאלה, ולחץ על מקש החץ הימני עם אצבע הקמיצה הימנית כשאתה רואה חץ ימינה.</p>' +
+    '<p style="direction: rtl; text-align: right;">כלומר, חץ שמאלה = מקש שמאל וחץ ימינה = מקש ימין.</p>' + '<br>' +
+    '<p style="direction: rtl; text-align: right;">עם זאת, בחלק מהניסיונות (ניסיונות אות-עצירה) החצים יהפכו לאדומים לאחר השהייה משתנה. עליך לעצור את התגובה שלך כשזה קורה.</p>' +
+    '<p style="direction: rtl; text-align: right;">בערך במחצית מניסיונות אות-העצירה, אות העצירה האדום יופיע מוקדם ותשים לב שיהיה קל לעצור את התגובה שלך.</p>' +
+    '<p style="direction: rtl; text-align: right;">במחצית השנייה של הניסיונות, אותות העצירה האדומים יופיעו מאוחר ויהיה מאוד קשה או אפילו בלתי אפשרי לעצור את התגובה שלך.</p>'
 ];
 
 // instructions page 2
