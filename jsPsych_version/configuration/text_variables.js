@@ -88,12 +88,12 @@ correct_stop_msg = '<p style="direction: rtl; text-align: right;">עצירה נ�
 incorrect_stop_msg = '<p style="direction: rtl; text-align: right;">זכור: נסה לעצור</p>'
 
 // משוב בלוק
-no_signal_header = '<p style="direction: rtl; text-align: right;"><b>ניסיונות GO: </b></p>'
+no_signal_header = '<p style="direction: rtl; text-align: right;"><b>כל הכבוד! תקציר ניסיונות GO: </b></p>'
 avg_rt_msg = '<p style="direction: rtl; text-align: right;">זמן תגובה ממוצע = %d אלפיות שנייה</p>'
 prop_miss_msg = '<p style="direction: rtl; text-align: right;">אחוז החמצות = %.2f (צריך להיות 0)</p>'
 stop_signal_header = '<p style="direction: rtl; text-align: right;"><b>ניסיונות אות-עצירה: </b></p>'
 prop_corr_msg = '<p style="direction: rtl; text-align: right;">אחוז עצירות נכונות = %.2f (צריך להיות קרוב ל-0.5)</p>' + '<br>'
-next_block_msg = '<p style="direction: rtl; text-align: right;">אתה יכול לקחת הפסקה קצרה, הבלוק הבא מתחיל בעוד <span id="timer">15</span></p>'
+next_block_msg = '<p style="direction: rtl; text-align: right;">אתה יכול לקחת הפסקה קצרה, נראה אם תוכל לשפר את התוצאות, הבלוק הבא מתחיל בעוד <span id="timer">15</span></p>'
 final_block_msg = '<p style="direction: rtl; text-align: right;">לחץ על מקש הרווח להמשך...</p>'
 
 // אחר
