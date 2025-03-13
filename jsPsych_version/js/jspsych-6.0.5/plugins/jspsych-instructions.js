@@ -119,7 +119,7 @@ jsPsych.plugins.instructions = (function() {
         }
         nav_html += "<button id='jspsych-instructions-next' class='jspsych-btn'"+
             "style='margin-left: 5px;'>"+trial.button_label_next+
-            " &</button></div>";
+            " </button></div>";
 
         html += nav_html;
         display_element.innerHTML = html;
