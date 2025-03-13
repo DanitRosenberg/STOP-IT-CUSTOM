@@ -128,8 +128,8 @@ var instructions = {
     type: "instructions",
     pages: [page1, page2],
     show_clickable_nav: true,
-    button_label_next: label_next_button,
     button_label_previous: label_previous_button,
+    button_label_next: label_next_button,
 };
 
 // start of each block
