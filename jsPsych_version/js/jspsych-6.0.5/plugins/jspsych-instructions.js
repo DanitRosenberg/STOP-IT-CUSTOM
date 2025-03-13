@@ -112,14 +112,14 @@ jsPsych.plugins.instructions = (function() {
         var nav_html = "<div class='jspsych-instructions-nav' style='padding: 10px 0px;'>";
         if (trial.allow_backward) {
           var allowed = (current_page > 0 )? '' : "disabled='disabled'";
-          nav_html += "<button id='jspsych-instructions-back' class='jspsych-btn' style='margin-right: -200px;' "+allowed+">; "+trial.button_label_previous+"</button>";
+          nav_html += "<button id='jspsych-instructions-back' class='jspsych-btn' style='margin-right: -200px;' "+allowed+"> "+trial.button_label_previous+"</button>";
         }
         if (trial.pages.length > 1 && trial.show_page_number) {
             nav_html += pagenum_display;
         }
         nav_html += "<button id='jspsych-instructions-next' class='jspsych-btn'"+
             "style='margin-left: 5px;'>"+trial.button_label_next+
-            " &gt;</button></div>";
+            " &</button></div>";
 
         html += nav_html;
         display_element.innerHTML = html;
