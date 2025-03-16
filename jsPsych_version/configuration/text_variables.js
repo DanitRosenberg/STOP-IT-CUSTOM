@@ -28,9 +28,9 @@ var page1 = [
 page2 = [
     '<p style="direction: rtl; text-align: right;">למרות זאת, חשוב מאוד שלא תחכה להופעת אות העצירה ושתגיב מהר ומדויק ככל האפשר לחצים הלבנים.</p>' +
     '<p style="direction: rtl; text-align: right;">אחרי הכל, אם תתחיל לחכות לאותות העצירה האדומים, התוכנית תעכב את הופעתם. זה יגרום לזמני תגובה ארוכים.</p>' +
-    '<p style="direction: rtl; text-align: right;">נתחיל עם בלוק אימון קצר שבו תקבל משוב מיידי. בשלב הניסוי עצמו לא תקבל יותר משוב מיידי.</p>' +
+    '<p style="direction: rtl; text-align: right;"> במטלה הזו לא יהיה בלוק אימון קצר שבו תקבל משוב מיידי.</p>' +
     '<p style="direction: rtl; text-align: right;">עם זאת, בסוף כל בלוק ניסוי, תהיה הפסקה של 15 שניות. במהלך הפסקה זו, נציג בפניך מידע על הביצועים הממוצעים שלך בבלוק הקודם.</p>' +
-    '<p style="direction: rtl; text-align: right;">הניסוי מורכב מבלוק אימון אחד ו-2 בלוקים ניסויים.</p>'
+    '<p style="direction: rtl; text-align: right;"> הניסוי מורכב מ2 בלוקים ניסויים.</p>'
 ];
 
 // // informed consent text
