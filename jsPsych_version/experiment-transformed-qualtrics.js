@@ -105,7 +105,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
 
         // experimental session-defining variables
         flag_debug = true;
-        task_id = "STOP-IT";
+        task_id = "STOP-IT_After";
         sbj_id = "${e://Field/workerId}";
         if (!sbj_id.trim()) {
             sbj_id = Math.random().toString(36).slice(-6);
