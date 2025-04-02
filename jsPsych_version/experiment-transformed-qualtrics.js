@@ -105,7 +105,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
 
         // experimental session-defining variables
         flag_debug = true;
-        task_id = "STOP-IT_After";
+        task_id = "STOP-IT";
         sbj_id = "${e://Field/workerId}";
         if (!sbj_id.trim()) {
             sbj_id = Math.random().toString(36).slice(-6);
@@ -120,7 +120,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
         // save_data needs data_dir and file_name
         // my preference is to include the task id/name and sbj_id in the file name
         var data_dir = task_id;
-        var file_name = task_id + '_' + sbj_id + '.csv';
+        var file_name = task_id + '_After_' + sbj_id + '.csv';
 
         // push all the procedures, which are defined in stop-it_main.js to the overall timeline
         var timeline = []; // this array stores the events we want to run in the experiment
