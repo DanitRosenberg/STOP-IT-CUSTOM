@@ -7,10 +7,17 @@
 //   '<p>On approximately half of the stop-signal trials, the red stop signal will appear soon and you will notice that it will be easy to stop your response. </p>'+
 //   '<p>On the other half of the trials, the red stop signals will appear late and it will become very difficult or even impossible to stop your response.</p>'
 // ];
-var page1 = [
+var page12 = [
     '<p style="direction: rtl; text-align: right;">המשימה העיקרית שלך היא להגיב לחצים לבנים (עם מסגרת שחורה) שמופיעים על המסך.</p>' +
     '<p style="direction: rtl; text-align: right;">לחץ על מקש החץ השמאלי כשאתה רואה חץ שמאלה, ולחץ על מקש החץ הימני כשאתה רואה חץ ימינה.</p>' +
     '<p style="direction: rtl; text-align: right;">עם זאת, בחלק מהניסיונות החצים יהפכו לאדומים לאחר השהייה משתנה. עליך להימנע מתגובה כשזה קורה.</p>' 
+];
+
+var page1 = [
+    '<p style="direction: rtl; text-align: right;">במהלך המשימה הבא יופיעו בפניך <strong>חצים לבנים</strong>, ועלייך לפעול לפי ההנחיות הבאות:</p>' +
+    '<p style="direction: rtl; text-align: right;">1. כאשר החץ פונה <strong>שמאלה</strong> עליך ללחוץ על <strong>מקש החץ השמאלי</strong></p>' +
+    '<p style="direction: rtl; text-align: right;">2. כאשר החץ פונה <strong>ימינה</strong> עליך ללחוץ על <strong>מקש החץ הימני</strong></p>' +
+    '<p style="direction: rtl; text-align: right;">3. במידה והחץ הופך <strong>לאדום</strong>, עליך <strong>להימנע מתגובה</strong> ולא ללחוץ על אף מקש.</p>'
 ];
 
 // instructions page 2
