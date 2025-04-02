@@ -14,7 +14,7 @@ var page12 = [
 ];
 
 var page1 = [
-    '<p style="direction: rtl; text-align: right;">במהלך המשימה הבא יופיעו בפניך <strong>חצים לבנים</strong>, ועלייך לפעול לפי ההנחיות הבאות:</p>' +
+    '<p style="direction: rtl; text-align: right;">במהלך המשימה הבאה יופיעו בפניך <strong>חצים לבנים</strong>, ועלייך לפעול לפי ההנחיות הבאות:</p>' +
     '<p style="direction: rtl; text-align: right;">1. כאשר החץ פונה <strong>שמאלה</strong> עליך ללחוץ על <strong>מקש החץ השמאלי</strong></p>' +
     '<p style="direction: rtl; text-align: right;">2. כאשר החץ פונה <strong>ימינה</strong> עליך ללחוץ על <strong>מקש החץ הימני</strong></p>' +
     '<p style="direction: rtl; text-align: right;">3. במידה והחץ הופך <strong>לאדום</strong>, עליך <strong>להימנע מתגובה</strong> ולא ללחוץ על אף מקש.</p>'
